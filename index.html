@@ -11,16 +11,43 @@
         <header>
           <img src="images/logo.png" alt="logo" />
         </header>
-        <img
-          class="product-photo"
-          src="images/Nike-SB-Stefan-Janoski-Max.png"
-          alt="Nike-SB-Stefan-Janoski-Max"
-        />
-        <div class="product-description">
-          <h2>Nike SB Stefan Janoski Max</h2>
-          <p>Unisex Skateboarding Shoe</p>
-          <img src="images/VectorSmartObjectcopy 4.png" alt="rating" />
-        </div>
+        <form action="#" method="POST">
+          <div class="product-photo">
+            <img
+              src="images/Nike-SB-Stefan-Janoski-Max.png"
+              alt="Nike-SB-Stefan-Janoski-Max"
+            />
+            <div class="choice-color">
+              <input class="grey" type="radio" name="color" value="grey" />
+              <input class="white" type="radio" name="color" value="white" />
+              <input class="red" type="radio" name="color" value="red" />
+              <input class="blue" type="radio" name="color" value="blue" />
+            </div>
+          </div>
+          <div class="product-description">
+            <h2>Nike SB Stefan Janoski Max</h2>
+            <p>Unisex Skateboarding Shoe</p>
+            <img src="images/VectorSmartObjectcopy 4.png" alt="rating" /><br />
+            <select name="size">
+              <option value="" style="display:none">Size</option>
+              <option value="40">41</option>
+              <option value="41">42</option>
+              <option value="42">43</option>
+              <option value="43">44</option>
+              <option value="44">45</option>
+              <option value="45">46</option>
+            </select>
+            <select name="Qty">
+              <option value="" style="display:none">Qty</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option> </select
+            ><br />
+            <input type="submit" value="Add to cart" />
+          </div>
+        </form>
       </section>
     </main>
   </body>
