@@ -30,6 +30,7 @@ form {
   height: 390px;
   width: 685px;
   background-color: #111a28;
+  box-shadow: 0 0 25px #111a28;
   margin-top: 110px;
   margin-left: 65px;
   border-radius: 2%;
